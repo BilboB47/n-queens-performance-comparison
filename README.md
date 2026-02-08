@@ -116,7 +116,7 @@ This script executes all implementations for selected values of N and stores exe
 
 ---
 
-##Step 2: Generate Performance Plot
+## Step 2: Generate Performance Plot
 
 After the CSV file is generated, create the performance comparison plot:
 
@@ -153,6 +153,7 @@ The benchmark results are visualized in a single comparison plot.
 - Performance results may vary depending on hardware configuration, CUDA version, and system load.
 - Small values of `N` may not benefit from GPU acceleration due to kernel launch overhead.
 - The primary goal of this project is **relative performance comparison**, not absolute timing accuracy.
+
 
 
 
