@@ -102,7 +102,7 @@ python3 tests/unittest_nqueens.py
 
 Benchmarking is performed in two steps: generating performance data and visualizing the results.
 
-### Step 1: Generate Benchmark Data
+## Step 1: Generate Benchmark Data
 
 Navigate to the `benchmarks` directory and run:
 
