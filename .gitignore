@@ -1,5 +1,28 @@
+# --- Build Outputs ---
 build/
+bin/
+obj/
 *.o
+*.obj
+*.cu.o
+
+# --- Binaries ---
 queens_naive
 queens_bitmask
 queens_cuda
+*.exe
+*.out
+
+# --- IDEs and Editors ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- System Garbage ---
+.DS_Store
+Thumbs.db
+
+# --- Benchmark Results ---
+benchmarks/*.csv
+benchmarks/*.png
