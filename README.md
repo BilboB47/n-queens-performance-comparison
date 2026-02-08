@@ -30,6 +30,7 @@ The following three approaches are compared:
 
 ## Project Structure
 
+```text
 .
 ├── src/                    # Source files (.cpp, .cu)
 │   ├── queens_naive.cpp
@@ -46,6 +47,7 @@ The following three approaches are compared:
 ├── CMakeLists.txt          # CMake configuration
 ├── .gitignore              # Git ignore rules
 └── README.md               # Project documentation
+```
 ---
 
 ## Requirements
@@ -151,6 +153,7 @@ The benchmark results are visualized in a single comparison plot.
 - Performance results may vary depending on hardware configuration, CUDA version, and system load.
 - Small values of `N` may not benefit from GPU acceleration due to kernel launch overhead.
 - The primary goal of this project is **relative performance comparison**, not absolute timing accuracy.
+
 
 
 
